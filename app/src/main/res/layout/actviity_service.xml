@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/open_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="开启服务"/>
+
+    <TextView
+        android:id="@+id/message_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/open_btn"
+        android:text="服务"
+        android:textColor="#ff0000"/>
+
+    <Button
+        android:id="@+id/serach_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="设置本蓝牙可以被搜索"/>
+
+</RelativeLayout>
